@@ -1,0 +1,5 @@
+board:
+  name: weact_stm32f103_core
+  vendor: st
+  socs:
+    - name: stm32f103xb
