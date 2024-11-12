@@ -1,0 +1,27 @@
+identifier: weact_stm32wb55_core
+name: WEACT STM32WB55-CORE
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 192
+flash: 808
+supported:
+  - gpio
+  - i2c
+  - counter
+  - dma
+  - spi
+  - pwm
+  - adc
+  - watchdog
+  - arduino_gpio
+  - arduino_i2c
+  - arduino_spi
+  - usb_device
+  - nvs
+  - rtc
+  - usbd
+vendor: weact
