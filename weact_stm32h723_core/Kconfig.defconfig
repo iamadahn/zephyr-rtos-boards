@@ -1,0 +1,16 @@
+# STM32H723VG Weact core board configuration
+
+if BOARD_WEACT_STM32H723_CORE
+
+if NETWORKING
+
+config NET_L2_ETHERNET
+	default y
+
+endif # NETWORKING
+
+config USB_DC_HAS_HS_SUPPORT
+	default y
+	depends on USB_DC_STM32
+
+endif # BOARD_WEACT_STM32H723_CORE
