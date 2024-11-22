@@ -1,0 +1,15 @@
+identifier: stm32f103c8t6_mini 
+name: Mini STM32F103C8T6 CH340 Development Board
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 20
+supported:
+  - i2c
+  - pwm
+  - spi
+  - adc
+  - gpio

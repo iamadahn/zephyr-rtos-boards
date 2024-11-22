@@ -1,0 +1,5 @@
+board:
+  name: stm32f103c8t6_mini
+  vendor: other
+  socs:
+    - name: stm32f103xb
