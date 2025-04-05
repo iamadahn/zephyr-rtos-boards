@@ -1,0 +1,14 @@
+# WeAct Studio MINI STM32H750VB board configuration
+
+if BOARD_MINI_STM32H750
+
+if DISPLAY
+
+# MEMC needs to be enabled in order to store
+# display buffer to external SDRAM connected to FMC
+config MEMC
+	default y
+
+endif # DISPLAY
+
+endif # BOARD_MINI_STM32H750

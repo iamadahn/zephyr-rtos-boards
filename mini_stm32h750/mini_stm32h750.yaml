@@ -1,0 +1,16 @@
+identifier: mini_stm32h750
+name: WeAct Stuidos MINI STM32H750
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+  - xtools
+ram: 1024
+flash: 128
+supported:
+  - gpio
+  - dma
+  - flash
+  - rtc
+vendor: weact
